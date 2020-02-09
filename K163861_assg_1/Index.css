@@ -1,1 +1,54 @@
-.
+        .heading
+        {
+            text-align: center;
+            font-family: Comic;
+            color: black;
+        }
+        .box1
+        {
+            border: 3px;
+            height:40%;
+            width: 30%;
+            float: left;
+            margin: 4px;
+            background-color: grey;
+        }
+        
+        .box2
+        {
+           border: 3px;
+            height:40%;
+            width: 30%;
+            float: left;
+            margin: 4px;
+            background-color: grey;
+        }
+        
+        .box3
+        {
+            margin: 4px;
+            border: 3px;
+            height:40%;
+            width: 30%;
+            float: left;
+            background-color: grey;
+        }
+        .Chicken
+        {
+            float: right;
+           border: 2px;
+            background-color:salmon;
+        }
+        .Beef
+        {
+            float: right;
+           border: 2px;
+            background-color: maroon;
+            color: white;
+        }
+        .Sushi
+        {
+            float: right;
+           border: 2px;
+            background-color: goldenrod;
+        }
