@@ -1,54 +1,101 @@
-        .heading
-        {
-            text-align: center;
-            font-family: Comic;
-            color: black;
-        }
-        .box1
-        {
-            border: 3px;
-            height:40%;
-            width: 30%;
-            float: left;
-            margin: 4px;
-            background-color: grey;
-        }
-        
-        .box2
-        {
-           border: 3px;
-            height:40%;
-            width: 30%;
-            float: left;
-            margin: 4px;
-            background-color: grey;
-        }
-        
-        .box3
-        {
-            margin: 4px;
-            border: 3px;
-            height:40%;
-            width: 30%;
-            float: left;
-            background-color: grey;
-        }
-        .Chicken
-        {
-            float: right;
-           border: 2px;
-            background-color:salmon;
-        }
-        .Beef
-        {
-            float: right;
-           border: 2px;
-            background-color: maroon;
-            color: white;
-        }
-        .Sushi
-        {
-            float: right;
-           border: 2px;
-            background-color: goldenrod;
-        }
+
+.heading
+{
+    font-weight: bold;
+    text-align: center;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.box1
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height:40%;
+    width: 30%;
+    float: left;
+    margin: 4px;
+    background-color: grey;
+}
+
+.box2
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height:40%;
+    width: 30%;
+    float: left;
+    margin: 4px;
+    background-color: grey;
+}
+
+.box3
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 4px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height:40%;
+    width: 30%;
+    float: left;
+    background-color: grey;
+}
+.Chicken
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    float: right;
+    background-color:salmon;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-right:30px;
+    padding-left:30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    margin-left: 480px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.Beef
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    float: right;
+    background-color: maroon;
+    color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding-right:30px;
+    padding-left:30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    margin-left: 480px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.Sushi
+{
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    float: right;
+    background-color: goldenrod;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-right:30px;
+    padding-left:30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    margin-left: 480px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
