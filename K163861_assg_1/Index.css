@@ -5,6 +5,10 @@
     text-align: center;
     font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
+    margin: 3px;
+    margin-bottom: 50px;
+    font-size: 175%;
+    margin-top: 30px;
 }
 
 .box1
@@ -13,14 +17,17 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    height:40%;
-    width: 30%;
+    height:50%;
+    width: 28%;
     float: left;
     margin: 4px;
     background-color: grey;
     padding-bottom: 16px;
     padding-left: 10px;
     max-width: 100%;
+    margin-right: 2%;
+    margin-left: 4%;
+    font-size: 16px;
 }
 
 .box2
@@ -30,13 +37,16 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    height:40%;
-    width: 30%;
+    height:50%;
+    width: 28%;
     float: left;
     margin: 4px;
     background-color: grey;
     padding-bottom: 16px;
     padding-left: 10px;
+    margin-right: 2%;
+    margin-left: 1%;
+    font-size: 16px;
 }
 
 .box3
@@ -47,12 +57,15 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    height:40%;
-    width: 30%;
+    height:50%;
+    width: 28%;
     float: left;
     background-color: grey;
     padding-bottom: 16px;
     padding-left: 10px;
+    margin-right: 2%;
+    margin-left: 1%;
+    font-size: 16px;
 }
 
 .Chicken
@@ -72,6 +85,8 @@
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 3px;
+    font-size: 125%;
+
 }
 
 .Beef
@@ -92,6 +107,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 3px;
+    font-size: 125%;
 }
 
 .Sushi
@@ -111,10 +127,38 @@
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 3px;
+    font-size: 125%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .box1, .box2, .box3 {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      width: 98%; 
+      margin-left: 0px;
+      margin-bottom: 16px;
+      margin-right: 2px;
     }
-  }
+    .Sushi, .Beef, .Chicken{
+        margin-left: 1000px;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .box1, .box2, .box3 {
+      height: 100%; 
+    }
+}
+
+@media screen and (min-width: 762px) and (max-width: 991px) {
+    .box1, .box2 {
+      width: 43%;
+    }
+
+    .box3{
+        width: 90.8%; 
+        margin-left: 35px;
+    }
+    .Sushi{
+        margin-left: 800px;
+    }
+}
